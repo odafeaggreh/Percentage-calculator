@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calc.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <div class="calc-flex">
+            <div class="calculatorHeaderTitle">
+                <h1>Percent Calculator</h1>
+            </div>
+            <p class="select-label">Choose:</p>
+            <select>
+                <option value="text">X is what percent of Y</option>
+            </select>
+            <div class="flex-input">
+                
+                <form id="xIsWhatPercentOfY" class="form-flex">
+                    <div class="textarea-flex">
+                        What is  <input type="text" id="nunField1" size="4"> % of 
+                        <input type="text" id="nunField2" size="4"> ? <br> <br>
+                    </div>
+                        <input type="submit" value="Calculate" class="calc-btn">
+                </form>
+            </div>
+                <h3 id="resultField"></h3>
+        </div>
+        
+
+        <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>
