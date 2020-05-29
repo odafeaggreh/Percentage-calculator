@@ -56,3 +56,11 @@ input.calc-btn{
     margin: auto;
     padding: 10px;
 }
+
+h3.result{
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
